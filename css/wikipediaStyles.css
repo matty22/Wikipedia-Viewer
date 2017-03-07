@@ -1,0 +1,78 @@
+/* wikipediaStyles.css  */
+
+body {
+	background-color: #d4c5b2;
+}
+
+h2 {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#searchBox {
+	margin: 50px auto;
+}
+
+#resultsTable {
+	margin: 40px 0px;
+}
+
+#searchBox {
+	margin: 20 auto;
+	border-radius: 5px 5px;
+	height: 30px;
+	border: none;
+}
+
+.button {
+	margin-bottom: 10px;
+	border-radius: 5px 5px;
+	border: none;
+	padding: 5px 20px;
+	background-color: #deb058;
+	box-shadow: 1px 1px #77674e;
+	color: white;
+	font-weight: bold;
+}
+
+#searchButton:hover {
+	transform: scale(1.1);
+}
+
+#randomButton:hover {
+	transform: scale(1.1);
+}
+
+.resultsItem {
+	margin-bottom: 20px;
+	background-color: #77674e;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 15px 10px;
+	border-radius: 10px 10px;
+	box-shadow: 3px 3px 10px #c9573c;
+	transition: all ease-in-out;
+}
+
+.resultsItem:hover {
+	transform: scale(1.01);
+}
+
+a {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #c9573c;
+	text-shadow: 1px 1px 3px white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #01abe9;
+}
