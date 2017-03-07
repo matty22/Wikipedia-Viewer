@@ -1,3 +1,5 @@
+// Wikipedia Viewer JS 
+
 function getQuery() {
 	//Sets variable equal to users input in search box
 	var searchQuery = $("#searchBox").val();
